@@ -13,5 +13,13 @@ class AppPages {
       name: AppRoutes.instance.initRoute,
       page: () => const InitPage(),
     ),
+    GetPage(
+      name: AppRoutes.instance.signInRoute,
+      page: () => const SignInView(),
+    ),
+    GetPage(
+      name: AppRoutes.instance.homeRoute,
+      page: () => const HomeView(),
+    ),
   ];
 }
