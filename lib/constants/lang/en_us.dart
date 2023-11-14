@@ -1,4 +1,8 @@
 Map<String, String> enUS = {
+  /* Title */
+  'title_sign_in': 'Login',
+  'title_home': 'Home',
+
   /* Sign In */
   'signin_google': 'Google Login',
 

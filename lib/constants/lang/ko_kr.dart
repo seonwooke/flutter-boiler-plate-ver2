@@ -1,4 +1,8 @@
 Map<String, String> koKR = {
+  /* Title */
+  'title_sign_in': '로그인',
+  'title_home': '홈',
+
   /* Sign In */
   'signin_google': '구글 로그인',
 

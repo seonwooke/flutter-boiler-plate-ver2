@@ -31,7 +31,6 @@ flutter:
   
   assets:
     - assets/images/
-    - assets/lotties/
   fonts:
   - family: Pretendard
     fonts:
