@@ -1,0 +1,47 @@
+name: flutter_boiler_plate_ver2
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  cupertino_icons: ^1.0.2
+  intl: ^0.18.1
+  flutter_screenutil: ^5.8.4
+  get: ^4.6.5
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.6.3
+  cloud_firestore: ^4.8.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+    
+  flutter_lints: ^2.0.0
+  
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/lotties/
+  fonts:
+  - family: Pretendard
+    fonts:
+    - asset: assets/fonts/Pretendard/Pretendard-Light.otf
+      weight: 300
+    - asset: assets/fonts/Pretendard/Pretendard-Regular.otf
+      weight: 400
+    - asset: assets/fonts/Pretendard/Pretendard-Medium.otf
+      weight: 500
+    - asset: assets/fonts/Pretendard/Pretendard-SemiBold.otf
+      weight: 600
+    - asset: assets/fonts/Pretendard/Pretendard-Bold.otf
+      weight: 700
+      
